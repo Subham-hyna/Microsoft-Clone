@@ -1,0 +1,19 @@
+@keyframes left-to-right{
+    from{padding-right: 0.8rem ;}
+    to{padding-left: 0.8rem;}
+}
+:hover.animate-l2r{
+    animation-name: left-to-right;
+    animation-duration: 0.3s;
+    padding-left: 0.8rem;
+}
+
+@keyframes right-to-left{
+    from{padding-left: 0.8rem ;}
+    to{padding-right: 0.8rem;}
+}
+:hover.animate-r2l{
+    animation-name: right-to-left;
+    animation-duration: 0.3s;
+    padding-right: 0.8rem;
+}
